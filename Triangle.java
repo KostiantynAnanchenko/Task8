@@ -4,6 +4,7 @@ public class Triangle extends Shape{
     private int side1;
     private int side2;
     private int side3;
+    private String name = "Triangle";
 
     public Triangle(int side1, int side2, int side3) {
         this.side1 = side1;
@@ -13,7 +14,7 @@ public class Triangle extends Shape{
 
     @Override
     public String getShapeName() {
-        return "Triangle";
+        return name;
     }
 
 }

@@ -3,6 +3,7 @@ package org.example;
 public class Rectangle extends Shape{
     private int width;
     private int height;
+    private String name = "Rectangle";
 
     public Rectangle(int width, int height) {
         this.width = width;
@@ -11,6 +12,6 @@ public class Rectangle extends Shape{
 
     @Override
     public String getShapeName() {
-        return "Rectangle";
+        return name;
     }
 }

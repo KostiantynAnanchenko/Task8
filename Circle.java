@@ -2,6 +2,7 @@ package org.example;
 
 class Circle extends Shape {
     private int radius;
+    private String name = "Circle";
 
     public Circle(int radius) {
         this.radius = radius;
@@ -9,6 +10,6 @@ class Circle extends Shape {
 
     @Override
     public String getShapeName() {
-        return "Circle";
+        return name;
     }
 }
